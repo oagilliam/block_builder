@@ -1,5 +1,6 @@
+#Code Wars
 # DESCRIPTION:
-# Write a class Block that creates a block (Duh..)
+# Write a class Block that creates a block
 
 #Requirements/;
 #The constructor should take an array as an argument, this will contain 3 integers of the form [width, length, height] 
