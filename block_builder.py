@@ -9,8 +9,8 @@
 class Block:
     def __init__(self, arr):
         self.width = arr[0]
-        self.height = arr[1]
-        self.length = arr[2]
+        self.length = arr[1]
+        self.height = arr[2]
 
     def get_width(self):
         return self.width
@@ -25,7 +25,8 @@ class Block:
         return (self.width * self.length * self.height)
     
     def get_surface_area(self):
-        return (2(self.width*self.length + self.width*self.height + self.length*self.height))
+        surface_area = int(self.width*self.length) + int(self.width*self.height) + int(self.length*self.height)
+        return 2 * surface_area
 
 
 b = Block([2,4,6])
